@@ -1,8 +1,10 @@
-import junit.framework.TestCase;
-import org.example.Calculator;
-import org.junit.jupiter.api.Test;
+package org.example;
 
-public class CalculatorTest extends TestCase {
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+
+public class CalculatorTest {
 
     @Test
     public void testAdd() {
